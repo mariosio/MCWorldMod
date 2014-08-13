@@ -1,5 +1,6 @@
 package com.mariosio.worldmodbeta;
 
+import com.mariosio.worldmodbeta.configuration.ConfigurationHandler;
 import com.mariosio.worldmodbeta.proxy.IProxy;
 import com.mariosio.worldmodbeta.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -18,7 +19,7 @@ public class WorldModB {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler

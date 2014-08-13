@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "tb1.0"
+version = "tb0.1"
 group= "com.mariosio.worldmodbeta" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "World[1.7.2]-"
 
