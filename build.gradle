@@ -19,10 +19,10 @@ apply plugin: 'forge'
 
 version = "tb0.1"
 group= "com.mariosio.worldmodbeta" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "World[1.7.2]-"
+archivesBaseName = "World[1.7.10]-"
 
 minecraft {
-    version = "1.7.2-10.12.2.1121"
+    version = "1.7.10-10.13.1.1219"
     assetDir = "eclipse/assets"
 }
 

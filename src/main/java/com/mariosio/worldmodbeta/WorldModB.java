@@ -1,6 +1,6 @@
 package com.mariosio.worldmodbeta;
 
-import com.mariosio.worldmodbeta.configuration.ConfigurationHandler;
+import com.mariosio.worldmodbeta.handler.ConfigurationHandler;
 import com.mariosio.worldmodbeta.proxy.IProxy;
 import com.mariosio.worldmodbeta.reference.Reference;
 import cpw.mods.fml.common.Mod;
